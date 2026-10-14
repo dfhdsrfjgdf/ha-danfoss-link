@@ -4,8 +4,8 @@
   "codeowners": ["@dfhdsrfjgdf"],
   "config_flow": true,
   "documentation": "https://github.com/dfhdsrfjgdf/ha-danfoss-link",
-  "issue_tracker": "https://github.com/dfhdsrfjgdf/ha-danfoss-link/issues",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/dfhdsrfjgdf/ha-danfoss-link/issues",
   "requirements": ["ecdsa==0.19.2", "asn1crypto==1.5.1"],
   "version": "0.1.0"
 }
