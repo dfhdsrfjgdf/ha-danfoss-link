@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Home Assistant
+.storage/
+*.db
+
+# Secrets — never commit
+**/app_key.pem
+**/app_cert.pem
+**/pairings/
+danfoss_link_creds/
+**/SUMMARY.txt
+cc_peer_id.txt
+
+# Reverse-engineering artifacts (local only)
+/re/
+*.apk
+*.luac
+*.pcapng
+
+# Session / personal artifacts
+session*.md
+danfosslink_session*.md
+*.png
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/

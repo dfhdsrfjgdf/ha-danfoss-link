@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Danfoss Link",
+        "description": "Enter the app certificate and private key from the Danfoss Link Android app, plus your CC peer ID. You can paste PEM text or a file path Home Assistant can read (e.g. /config/danfoss_link_creds/app_cert.pem). See the project documentation for how to export credentials.",
+        "data": {
+          "cert_pem": "App certificate (PEM or path)",
+          "key_pem": "App private key (PEM or path)",
+          "cc_peer_id": "CC peer ID",
+          "host": "MDG host (optional)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to your Danfoss Link CC. Close the Danfoss app on your phone/emulator, check the peer ID and PEM files, then try again."
+    },
+    "abort": {
+      "already_configured": "This CC is already configured"
+    }
+  },
+  "entity": {
+    "select": {
+      "house_mode": {
+        "name": "House mode"
+      }
+    }
+  }
+}
