@@ -27,6 +27,8 @@ cc_peer_id.txt
 session*.md
 danfosslink_session*.md
 *.png
+# ...but keep brand assets
+!custom_components/**/brand/*.png
 
 # Editors / OS
 .DS_Store
